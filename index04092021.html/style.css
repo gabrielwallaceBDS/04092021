@@ -1,0 +1,64 @@
+/*
+label{
+    display:block;
+}
+*//*
+label, input{
+    display:block;
+}
+*//*
+label, input[type=submit]{
+    display:block;
+}
+*//*
+label, input[type=submit], input[type=text]{
+    display:block;
+}
+*//*
+label, input[type=submit], input[type=text]{
+    display:block;
+}
+
+textarea{
+    width: 300px;
+    height: 80;
+}
+*//*
+
+label, input[type=submit], input[type=text]{
+    display:block;
+}
+
+textarea{
+    width: 300px;
+    height: 80;
+}
+
+input[type=submit]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+*/
+
+
+label, input[type=submit], input[type=text]{
+    display:block;
+}
+
+textarea{
+    width: 300px;
+    height: 80;
+}
+
+input[type=submit]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type=submit]:hover{
+    background: #ff6600;
+}
+

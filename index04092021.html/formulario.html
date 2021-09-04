@@ -1,0 +1,343 @@
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+<body>
+    <h1 class="link">meu primeiro estilo css</h1>
+    <p><a href="listas.html" class="link">primeiro link</a></p>
+    <p><a href="listas.html" id="segundo">segundo link</a></p>
+    <p><a href="listas.html" class="link">terceiro link</a></p>
+</body>
+</html>
+-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+<body>
+     <form action="contato.php" method="get">
+    <input type="text">
+</form>
+</body>
+</html>
+
+ Tag form cria formulario// action e o destino que vai processar o formulario// atributos de form action e method=forma como as informacoes serao mandadas get mostra as informacoes no endereco da pagina e o metodo post envia as informacoes em background ou seja escondidas na pagina// depois de criar os formulario criamos os campos// botoes de radio que escolhe uma opcao 
+-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="contato.php" method="get">
+            <label>Nome:</label>
+            <input type="text">
+        </form>
+    </body>
+</html>
+
+Implementar as labels sao etiquetas que identificam o que deve ser posto na label
+-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="contato.php" method="get">
+            <label>Nome:</label>
+            <input type="text" placeholder="Digite seu nome:">
+        </form>
+    </body>
+</html>
+
+placeholder aparece o texto dentro do campo-->
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="contato.php" method="get">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:">
+        </form>
+    </body>
+</html>
+
+//menor label for="nome"maior menor/label maior\\
+//menor input id= "nome" type="text" placeholder="Digite seu nome:"maior\\
+//Quando clica na label o cursor vai para dentro da tabela\\-->
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="get">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:">
+        </form>
+    </body>
+</html>
+
+MENOR form action="contato.php" method="get" MAIOR MENOR/form MAIOR //
+\\ Quando nao e definido a action o formulario e enviado para esta mesma pagina
+-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="get">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <input type="submit" value="ENVIAR">
+        </form>
+    </body>
+</html>
+
+Criando um botao para envia formulario \\
+//MENOR input id= "nome" type="text" placeholder="Digite seu nome:" name="nome" MAIOR\\
+//MENOR input type="submit" value="ENVIAR" MAIOR como sera tradada as informacoes enviadas pelo formulario\\-->
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <input type="submit" value="ENVIAR">
+        </form>
+    </body>
+</html>
+
+Agora iremos trocar o get por post MENOR form action="" method="get"MENORMAIOR/form MAIOR\\
+//MENOR form action="" method="post"MENORMAIOR/form MAIOR\\
+// No post as informacoes devem ser tratadas atraves de uma linguagem de informacao\\-->
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <input type="radio" name="opcao" value="sim"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <input type="submit" value="ENVIAR">
+        </form>
+    </body>
+</html>
+
+Criando outros campos de formularios  \\
+// coletando informacoes  \\
+// criando botoes do tipo radio onde podemos marcar apenas uma delas  \\
+// MENOR input type="radio" name="opcao" value="sim" MAIOR SIM  \\
+// MENOR input type="radio" name="opcao" value="nao"MAIOR NAO  \\
+-->
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input type="radio" name="opcao" value="sim"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <input type="submit" value="ENVIAR" id="nome">
+        </form>
+    </body>
+</html>
+
+
+Criando uma label para saber de que se trata a opcao\\
+//MENOR label for="opcao" MAIOR Voce gostou do site? MENOR /label MAIOR-->
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input type="radio" name="opcao" value="sim" checked="checked"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <input type="submit" value="ENVIAR" id="nome">
+        </form>
+    </body>
+</html>
+
+Agora faremos com que a opcao venha pre definida\\
+// Passa este comando MAIOR input type="radio" name="opcao" value="sim" MENOR SIM para   MAIOR input type="radio" name="opcao" value="sim" checked="checked"MENOR SIM-->
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/csss" href="style.csss">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input type="radio" name="opcao" value="sim" checked="checked"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <label for="opcao">Voce quer aprender mais sobre:</label>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS
+            <input type="submit" value="ENVIAR" id="nome">
+        </form>
+    </body>
+</html>
+
+//Podemos ter botoes do tipo checkbox para marcar mais de uma opcao\\
+-->
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <form action="" method="post">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input type="radio" name="opcao" value="sim" checked="checked"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <label for="opcao">Voce quer aprender mais sobre:</label>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS
+            <input type="submit" value="ENVIAR" id="nome">
+        </form>
+    </body>
+</html>
+
+A partir daqui css \\
+// CSS 1 mostra as labels em bloco /*
+label CHAVES
+    display:block;
+CHAVES
+*/\\ // CSS 2 definindo os inputs em blocos, mas somente as submits e labels e nao todos os submits\\//CSS 3 label, input[type=submit], input[type=text] CHAVES
+    display:block;
+CHAVES -> Os submits e inputs sera em blocos\\// Voltaremos ao HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formularios</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>
+        <form action="" method="get">
+            <label for="nome">Digite seu nome:</label>
+            <input id= "nome" type="text" placeholder="Digite seu nome:" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input type="radio" name="opcao" value="sim" checked="checked"> SIM
+            <input type="radio" name="opcao" value="nao"> NAO
+            <label for="opcao">Voce quer aprender mais sobre:</label>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS
+            <textarea name="msg"></textarea>
+            <input type="submit" value="ENVIAR">
+        </form>
+    </body>
+</html>
+
+Incluimos uma area \\//
+\\// MAIOR textarea name="" id="" cols="30" rows="10"MENORMAIOR /textarea MENOR \\// 
+Voltatemos ao CSS para definir a area do formulario de texto \\// CSS 5 dimensionar a textarea \\// CSS 6 Mechendo no cursor atraves do css  \\// CSS 7 efeito de hover para ficar com o botao diferenciado ex.: input[type=submit]:hover{background: #hexade;}
